@@ -1,0 +1,17 @@
+.match-teams-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.match-teams-container h3  {
+  margin: 0;
+}
+.match-teams-teams {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}

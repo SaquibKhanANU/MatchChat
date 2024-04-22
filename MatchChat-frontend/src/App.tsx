@@ -1,8 +1,9 @@
+import Routes from "./routes";
 
-function App() {
+function App(): JSX.Element {
     return (
         <div>
-            <div>yo</div>
+            <Routes />
         </div>
     );
 }

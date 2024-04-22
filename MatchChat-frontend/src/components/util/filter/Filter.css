@@ -1,0 +1,27 @@
+.filter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  gap: 10px;
+}
+
+.filter-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--ternary-color);
+  padding: 10px;
+  appearance: none;
+  outline: 0;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  color: var(--text-color);
+}
+
+

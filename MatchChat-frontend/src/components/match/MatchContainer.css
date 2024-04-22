@@ -1,0 +1,9 @@
+.match-container-container {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}

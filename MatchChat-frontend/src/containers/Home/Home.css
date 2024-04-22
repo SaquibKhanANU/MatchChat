@@ -1,0 +1,12 @@
+.home-container {
+  display: grid;
+  grid-template-columns: 0.4fr 1fr 0.5fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.home-container-posts-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

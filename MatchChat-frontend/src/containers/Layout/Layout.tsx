@@ -1,12 +1,18 @@
 import { ReactElement, Suspense } from "react";
 import { Outlet } from "react-router-dom";
+import Navbar from "../../components/navbar/Navbar";
 
-export default function Layout() : ReactElement {
+function Layout() : ReactElement {
     return (
-        <main>
-            <Suspense fallback={<div>Loading...</div>}>
-                <Outlet />
-            </Suspense>
-        </main>
+        <>
+            <Navbar />
+            <main>
+                <Suspense fallback={<div>Loading...</div>}>
+                    <Outlet />
+                </Suspense>
+            </main>
+        </>
     );
 }
+
+export default Layout;
