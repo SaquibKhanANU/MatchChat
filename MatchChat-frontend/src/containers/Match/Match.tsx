@@ -1,11 +1,11 @@
 import "./Match.css";
-import PostInfo from "../../components/post/PostInfo";
+import Post from "../../components/post/Post";
 import MatchContainer from "../../components/match/MatchContainer";
 
 function Match(): JSX.Element {
   return (
     <div className="match-container">
-      <PostInfo headerElement={<MatchContainer />} />
+      <Post headerElement={<MatchContainer />} />
     </div>
   );
 }
