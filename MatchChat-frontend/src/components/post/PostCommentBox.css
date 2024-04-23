@@ -1,0 +1,41 @@
+.post-comment-box-container {
+  margin: 10px;
+  position: relative;
+}
+
+.quill {
+  color: var(--text-color) !important;
+}
+
+.ql-toolbar.ql-snow {
+  border-bottom: none !important;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.ql-container.ql-snow {
+  border-top: none !important;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.ql-editor.ql-blank::before {
+  color: var(--text-color) !important;
+}
+
+.ql-editor {
+  padding-bottom: 40px !important;
+
+}
+
+.post-comment-box-button {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--ternary-color);
+  color: var(--text-color);
+  font-weight: bold;
+}
