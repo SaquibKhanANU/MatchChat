@@ -6,6 +6,7 @@
     background-color: var(--secondary-color);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: white;
+    border-bottom: 2px solid var(--ternary-color);
 }
 
 .navbar-container ul {

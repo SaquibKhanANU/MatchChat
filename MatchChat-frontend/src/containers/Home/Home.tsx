@@ -6,40 +6,39 @@ import Pagination from "../../components/util/pagination/Pagination";
 import PostsContainer from "../../components/post/PostsContainer";
 
 function Home(): JSX.Element {
-  const [currentPage, setCurrentPage] = useState(1);
-  const postsPerPge = 5;
+    const [currentPage, setCurrentPage] = useState(1);
+    const postsPerPge = 10;
 
-  const filters = [
-    { name: "Team", options: ["GENG", "T1", "DK"] },
-    { name: "League", options: ["LCK", "MSI", "WORLDS"] },
-    { name: "Season", options: ["SPRING", "SUMMER"] },
-  ];
+    const filters = [
+        { name: "Team", options: ["GENG", "T1", "DK"] },
+        { name: "League", options: ["LCK", "MSI", "WORLDS"] },
+        { name: "Season", options: ["SPRING", "SUMMER"] },
+    ];
 
-  const posts = new Array(14).fill(<PostCard />);
-  const indexOfLastPost = currentPage * postsPerPge;
-  const indexOfFirstPost = indexOfLastPost - postsPerPge;
-  const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
+    const posts = new Array(14).fill(<PostCard />);
+    const indexOfLastPost = currentPage * postsPerPge;
+    const indexOfFirstPost = indexOfLastPost - postsPerPge;
+    const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
 
-  function handlePagination(pageNumber: number) {
-    setCurrentPage(pageNumber);
-  }
+    function handlePagination(pageNumber: number) {
+        setCurrentPage(pageNumber);
+    }
 
-  return (
-    <div className="home-container">
-      <div>SECTION 1</div>
-      <div className="home-container-posts-section">
-        <Filter filters={filters} />
-        <PostsContainer posts={currentPosts} />
-        <Pagination
-          postsPerPage={postsPerPge}
-          length={posts.length}
-          currentPage={currentPage}
-          handlePageChange={handlePagination}
-        />
-      </div>
-      <div>SECTION 3</div>
-    </div>
-  );
+    return (
+        <div className="home-container">
+            <div className="home-container-posts-section">
+                <Filter filters={filters} />
+                <PostsContainer posts={currentPosts} />
+                <Pagination
+                    postsPerPage={postsPerPge}
+                    length={posts.length}
+                    currentPage={currentPage}
+                    handlePageChange={handlePagination}
+                />
+            </div>
+            <div>SECTION 3</div>
+        </div>
+    );
 }
 
 export default Home;

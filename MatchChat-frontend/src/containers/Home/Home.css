@@ -1,8 +1,8 @@
 .home-container {
   display: grid;
-  grid-template-columns: 0.4fr 1fr 0.5fr;
+  grid-template-columns: 70% 30%;
   gap: 20px;
-  padding: 20px;
+  padding: 10px 100px;
 }
 
 .home-container-posts-section {
