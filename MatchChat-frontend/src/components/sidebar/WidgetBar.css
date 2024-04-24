@@ -1,0 +1,14 @@
+.widget-bar-container {
+  background-color: var(--secondary-color);
+  border-right: 2px solid var(--ternary-color);
+  border-left: 2px solid var(--ternary-color);
+  color: var(--text-color);
+  height: 100%;
+}
+
+.widget-child {
+  border-bottom: 2px solid var(--ternary-color);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+}

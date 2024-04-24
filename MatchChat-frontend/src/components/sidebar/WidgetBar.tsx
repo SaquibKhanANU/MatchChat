@@ -1,11 +1,20 @@
-import './WidgetBar.css'
+import "./WidgetBar.css";
+import React from "react";
 
-function WidgetBar(): JSX.Element {
+interface WidgetBarProps {
+  children: React.ReactNode;
+}
+
+function WidgetBar({ children }: WidgetBarProps): JSX.Element {
   return (
-    <div>
-      WidgetBar
+    <div className="widget-bar-container">
+      {React.Children.map(children, (child, index) => (
+        <div key={index} className="widget-child">
+          {child}
+        </div>
+      ))}
     </div>
-  )
+  );
 }
 
 export default WidgetBar;

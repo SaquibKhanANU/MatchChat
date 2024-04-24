@@ -1,5 +1,5 @@
 
-export const PathConstants = {
+export const PathConstantsContainer = {
     HOME: "/",
     LOGIN: "/login",
     ACCOUNT: "/account",

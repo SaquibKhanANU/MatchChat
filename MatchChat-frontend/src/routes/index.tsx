@@ -1,6 +1,6 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { PathConstants } from "./paths/ContainerPaths";
+import { PathConstants } from "./paths";
 import { MatchMapping } from "./mappings/MatchMapping";
 import Layout from "../containers/Layout/Layout";
 
