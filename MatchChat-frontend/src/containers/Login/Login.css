@@ -1,0 +1,133 @@
+
+.login-container {
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.login-form-container {
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 900px;
+  height: 600px;
+  position:relative;
+}
+
+.login-form-left {
+  flex: 1;
+  padding: 40px;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.login-form-right {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-header {
+  position: absolute;
+  left: 10px;
+  margin-top:10px;
+}
+
+.login-form-header h1 {
+  font-size: 24px;
+  font-family: var(--montserrat-font);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.login-form-header img {
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 55px;
+}
+
+.login-form-signin,
+.login-form-signup {
+  text-align: center;
+}
+
+.login-form-signin h1,
+.login-form-signup h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--gray4)
+}
+
+
+.login-form-signin input,
+.login-form-signup input {
+  width: 100%;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.login-form-signin input,
+.login-form-signup input,
+.login-form-signin button,
+.login-form-signup button {
+  display: block;
+  padding: 7.5px 0;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+.login-form-signin button,
+.login-form-signup button {
+  background-color: var(--gray4);
+  color: #fff;
+  cursor: pointer;
+  width: 150px;
+  margin: 0 auto; /* Add this to horizontally center the buttons */
+  display: block; /* Ensure block-level display to apply margin auto */
+  font-family: var(--montserrat-font);
+}
+
+.login-form-signin button:hover,
+.login-form-signup button:hover {
+  background-color: var(--gray6);
+}
+
+.login-form-switch button:hover {
+  color: #0056b3;
+}
+
+.login-form-left p {
+  text-align: center;
+  color: var(--gray4);
+  letter-spacing: 0.1px;
+  font-size: 12px;
+}
+
+#sign-up-button {
+  color: var(--gray5);
+  background-color: transparent; /* blue color, you can change it to your desired color */
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+#sign-up-button:hover {
+  color: black;
+} 

@@ -23,3 +23,7 @@ p {
   text-decoration: none;
   color: inherit;
 }
+
+input:focus::placeholder {
+  color: transparent;
+}
