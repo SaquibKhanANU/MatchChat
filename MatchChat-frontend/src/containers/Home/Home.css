@@ -1,12 +1,12 @@
 .home-container {
-  display: grid;
-  grid-template-columns: 70% 30%;
-  gap: 20px;
-  padding: 10px 100px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 50px;
 }
 
 .home-container-posts-section {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  width: 100%;
 }

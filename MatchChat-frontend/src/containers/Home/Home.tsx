@@ -36,7 +36,6 @@ function Home(): JSX.Element {
                     handlePageChange={handlePagination}
                 />
             </div>
-            <div>SECTION 3</div>
         </div>
     );
 }
