@@ -1,0 +1,289 @@
+{
+    "LCK": {
+        "Spring_playoffs": {
+            "GEN vs T1": {
+                "num_games": 5,
+                "team1": "Gen.G eSports",
+                "team2": "T1",
+                "match_stats": {
+                    "team1": {
+                        "Kills": "76",
+                        "Towers": "36",
+                        "Dragons": "16",
+                        "Nashors": "4"
+                    },
+                    "team2": {
+                        "Kills": "55",
+                        "Towers": "29",
+                        "Dragons": "12",
+                        "Nashors": "8"
+                    }
+                },
+                "player_stats": {
+                    "team1": [
+                        {
+                            "Player": "Kiin",
+                            "KDA": "16/11/33 (4.5)",
+                            "CSM": 7.4,
+                            "DPM": 635,
+                            "WPM": 0.39
+                        },
+                        {
+                            "Player": "Canyon",
+                            "KDA": "16/9/46 (6.9)",
+                            "CSM": 6.1,
+                            "DPM": 299,
+                            "WPM": 0.66
+                        },
+                        {
+                            "Player": "Chovy",
+                            "KDA": "25/12/37 (5.2)",
+                            "CSM": 9.9,
+                            "DPM": 1019,
+                            "WPM": 0.6
+                        },
+                        {
+                            "Player": "Peyz",
+                            "KDA": "16/12/41 (4.8)",
+                            "CSM": 9.4,
+                            "DPM": 761,
+                            "WPM": 0.63
+                        },
+                        {
+                            "Player": "Lehends",
+                            "KDA": "3/11/58 (5.5)",
+                            "CSM": 0.9,
+                            "DPM": 213,
+                            "WPM": 2.11
+                        }
+                    ],
+                    "team2": [
+                        {
+                            "Player": "Zeus",
+                            "KDA": "2/18/24 (1.4)",
+                            "CSM": 7.4,
+                            "DPM": 457,
+                            "WPM": 0.31
+                        },
+                        {
+                            "Player": "Oner",
+                            "KDA": "13/20/23 (1.8)",
+                            "CSM": 6.1,
+                            "DPM": 422,
+                            "WPM": 0.37
+                        },
+                        {
+                            "Player": "Faker",
+                            "KDA": "18/14/20 (2.7)",
+                            "CSM": 9.1,
+                            "DPM": 715,
+                            "WPM": 0.78
+                        },
+                        {
+                            "Player": "Gumayusi",
+                            "KDA": "19/14/21 (2.9)",
+                            "CSM": 9.9,
+                            "DPM": 778,
+                            "WPM": 0.55
+                        },
+                        {
+                            "Player": "Keria",
+                            "KDA": "3/11/42 (4.1)",
+                            "CSM": 0.9,
+                            "DPM": 255,
+                            "WPM": 1.97
+                        }
+                    ]
+                },
+                "games": {
+                    "game1": {
+                        "time": "43:17",
+                        "gold": "+7.5k",
+                        "team1": {
+                            "picks": [
+                                "https://gol.gg/_img/champions_icon/Vi.png",
+                                "https://gol.gg/_img/champions_icon/Varus.png",
+                                "https://gol.gg/_img/champions_icon/Orianna.png",
+                                "https://gol.gg/_img/champions_icon/RenataGlasc.png",
+                                "https://gol.gg/_img/champions_icon/Alistar.png"
+                            ],
+                            "bans": [
+                                "https://gol.gg/_img/champions_icon/Rumble.png",
+                                "https://gol.gg/_img/champions_icon/Viego.png",
+                                "https://gol.gg/_img/champions_icon/Corki.png",
+                                "https://gol.gg/_img/champions_icon/Kalista.png",
+                                "https://gol.gg/_img/champions_icon/Nautilus.png"
+                            ]
+                        },
+                        "team2": {
+                            "picks": [
+                                "https://gol.gg/_img/champions_icon/Senna.png",
+                                "https://gol.gg/_img/champions_icon/TwistedFate.png",
+                                "https://gol.gg/_img/champions_icon/Taliyah.png",
+                                "https://gol.gg/_img/champions_icon/Jayce.png",
+                                "https://gol.gg/_img/champions_icon/XinZhao.png"
+                            ],
+                            "bans": [
+                                "https://gol.gg/_img/champions_icon/Aatrox.png",
+                                "https://gol.gg/_img/champions_icon/Maokai.png",
+                                "https://gol.gg/_img/champions_icon/Azir.png",
+                                "https://gol.gg/_img/champions_icon/Draven.png",
+                                "https://gol.gg/_img/champions_icon/Poppy.png"
+                            ]
+                        }
+                    },
+                    "game2": {
+                        "time": "32:00",
+                        "gold": "+8.5k",
+                        "team1": {
+                            "picks": [
+                                "https://gol.gg/_img/champions_icon/Senna.png",
+                                "https://gol.gg/_img/champions_icon/Orianna.png",
+                                "https://gol.gg/_img/champions_icon/Ashe.png",
+                                "https://gol.gg/_img/champions_icon/Vi.png",
+                                "https://gol.gg/_img/champions_icon/LeeSin.png"
+                            ],
+                            "bans": [
+                                "https://gol.gg/_img/champions_icon/RekSai.png",
+                                "https://gol.gg/_img/champions_icon/Rell.png",
+                                "https://gol.gg/_img/champions_icon/AurelionSol.png",
+                                "https://gol.gg/_img/champions_icon/Varus.png",
+                                "https://gol.gg/_img/champions_icon/Annie.png"
+                            ]
+                        },
+                        "team2": {
+                            "picks": [
+                                "https://gol.gg/_img/champions_icon/Nautilus.png",
+                                "https://gol.gg/_img/champions_icon/TwistedFate.png",
+                                "https://gol.gg/_img/champions_icon/Zeri.png",
+                                "https://gol.gg/_img/champions_icon/Rumble.png",
+                                "https://gol.gg/_img/champions_icon/Jayce.png"
+                            ],
+                            "bans": [
+                                "https://gol.gg/_img/champions_icon/KSante.png",
+                                "https://gol.gg/_img/champions_icon/XinZhao.png",
+                                "https://gol.gg/_img/champions_icon/Azir.png",
+                                "https://gol.gg/_img/champions_icon/Kalista.png",
+                                "https://gol.gg/_img/champions_icon/Neeko.png"
+                            ]
+                        }
+                    },
+                    "game3": {
+                        "time": "37:52",
+                        "gold": "+16.6k",
+                        "team1": {
+                            "picks": [
+                                "https://gol.gg/_img/champions_icon/Vi.png",
+                                "https://gol.gg/_img/champions_icon/Varus.png",
+                                "https://gol.gg/_img/champions_icon/Orianna.png",
+                                "https://gol.gg/_img/champions_icon/Vayne.png",
+                                "https://gol.gg/_img/champions_icon/KSante.png"
+                            ],
+                            "bans": [
+                                "https://gol.gg/_img/champions_icon/RekSai.png",
+                                "https://gol.gg/_img/champions_icon/Sejuani.png",
+                                "https://gol.gg/_img/champions_icon/Azir.png",
+                                "https://gol.gg/_img/champions_icon/Aphelios.png",
+                                "https://gol.gg/_img/champions_icon/Lulu.png"
+                            ]
+                        },
+                        "team2": {
+                            "picks": [
+                                "https://gol.gg/_img/champions_icon/Senna.png",
+                                "https://gol.gg/_img/champions_icon/TwistedFate.png",
+                                "https://gol.gg/_img/champions_icon/Kalista.png",
+                                "https://gol.gg/_img/champions_icon/Rumble.png",
+                                "https://gol.gg/_img/champions_icon/Jayce.png"
+                            ],
+                            "bans": [
+                                "https://gol.gg/_img/champions_icon/Zac.png",
+                                "https://gol.gg/_img/champions_icon/XinZhao.png",
+                                "https://gol.gg/_img/champions_icon/Taliyah.png",
+                                "https://gol.gg/_img/champions_icon/Lucian.png",
+                                "https://gol.gg/_img/champions_icon/Nami.png"
+                            ]
+                        }
+                    },
+                    "game4": {
+                        "time": "29:53",
+                        "gold": "+11.4k",
+                        "team1": {
+                            "picks": [
+                                "https://gol.gg/_img/champions_icon/Vi.png",
+                                "https://gol.gg/_img/champions_icon/Varus.png",
+                                "https://gol.gg/_img/champions_icon/Orianna.png",
+                                "https://gol.gg/_img/champions_icon/Poppy.png",
+                                "https://gol.gg/_img/champions_icon/Vayne.png"
+                            ],
+                            "bans": [
+                                "https://gol.gg/_img/champions_icon/KSante.png",
+                                "https://gol.gg/_img/champions_icon/KhaZix.png",
+                                "https://gol.gg/_img/champions_icon/AurelionSol.png",
+                                "https://gol.gg/_img/champions_icon/Lucian.png",
+                                "https://gol.gg/_img/champions_icon/Nami.png"
+                            ]
+                        },
+                        "team2": {
+                            "picks": [
+                                "https://gol.gg/_img/champions_icon/Senna.png",
+                                "https://gol.gg/_img/champions_icon/TwistedFate.png",
+                                "https://gol.gg/_img/champions_icon/Kalista.png",
+                                "https://gol.gg/_img/champions_icon/Jayce.png",
+                                "https://gol.gg/_img/champions_icon/Rumble.png"
+                            ],
+                            "bans": [
+                                "https://gol.gg/_img/champions_icon/Gwen.png",
+                                "https://gol.gg/_img/champions_icon/XinZhao.png",
+                                "https://gol.gg/_img/champions_icon/Azir.png",
+                                "https://gol.gg/_img/champions_icon/Aphelios.png",
+                                "https://gol.gg/_img/champions_icon/Lulu.png"
+                            ]
+                        }
+                    },
+                    "game5": {
+                        "time": "42:04",
+                        "gold": "+12.1k",
+                        "team1": {
+                            "picks": [
+                                "https://gol.gg/_img/champions_icon/Senna.png",
+                                "https://gol.gg/_img/champions_icon/Kalista.png",
+                                "https://gol.gg/_img/champions_icon/Ashe.png",
+                                "https://gol.gg/_img/champions_icon/Vayne.png",
+                                "https://gol.gg/_img/champions_icon/Rell.png"
+                            ],
+                            "bans": [
+                                "https://gol.gg/_img/champions_icon/KSante.png",
+                                "https://gol.gg/_img/champions_icon/Poppy.png",
+                                "https://gol.gg/_img/champions_icon/Corki.png",
+                                "https://gol.gg/_img/champions_icon/Zeri.png",
+                                "https://gol.gg/_img/champions_icon/Annie.png"
+                            ]
+                        },
+                        "team2": {
+                            "picks": [
+                                "https://gol.gg/_img/champions_icon/Nautilus.png",
+                                "https://gol.gg/_img/champions_icon/TwistedFate.png",
+                                "https://gol.gg/_img/champions_icon/Lulu.png",
+                                "https://gol.gg/_img/champions_icon/Jayce.png",
+                                "https://gol.gg/_img/champions_icon/KhaZix.png"
+                            ],
+                            "bans": [
+                                "https://gol.gg/_img/champions_icon/Zac.png",
+                                "https://gol.gg/_img/champions_icon/XinZhao.png",
+                                "https://gol.gg/_img/champions_icon/Orianna.png",
+                                "https://gol.gg/_img/champions_icon/Lucian.png",
+                                "https://gol.gg/_img/champions_icon/Nami.png"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "MSI": {
+        "MSI": {}
+    },
+    "WORLDS": {
+        "WORLDS": {}
+    }
+}
